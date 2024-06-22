@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skyline Properties</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const heading = document.querySelector('.color-changing-text');
+            const words = heading.textContent.split(' ');
+            heading.innerHTML = words.map((word, index) => `<span style="--i:${index}">${word}</span>`).join(' ');
+        });
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="logo">
+                <img src="LOGO/logo2-removebg-preview.png" alt="Skyline Properties Logo" width="150" height="150">
+            </div>
+            <nav class="menu">
+                <a href="#home" class="menu-item">Home</a>
+                <a href="#contact-us" class="menu-item">Contact Us</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfDnB8Idn5xHIYGQm23UBaDmig9L_SQoHysR_-ZSpLbtuQfKQ/viewform?usp=sf_link" class="menu-item">Register</a>
+            </nav>
+        </header>
+        <main>
+            <div class="top_section">
+                <div class="slogan">
+                    <h1 class="color-changing-text">Beyond the Skyline, Beyond Expectations</h1><br>
+                    <button class="know_more">Know more</button>
+                </div>
+            </div>
+            <div class="second_part">
+                <div class="information">
+                    <b>Skyline Properties</b> Alabama is a leading real estate agency dedicated to serving the community of Skyline and beyond. 
+                    With a proud history of connecting buyers and sellers throughout Alabama, we specialize in residential properties and commercial investments, offering unmatched service and expertise. 
+                    Our team of seasoned agents is committed to delivering exceptional service with a deep understanding of the local market dynamics. 
+                    Whether you're buying your first home, selling a property, or seeking investment opportunities, Skyline Properties Alabama provides personalized guidance every step of the way. 
+                    Backed by a robust network of resources, we offer reliable insights into property values, market trends, and negotiation strategies. 
+                    Trust Skyline Properties Alabama to navigate your real estate journey with professionalism and efficiency. 
+                    Whether you're a local resident or new to the area, let us help you achieve your real estate goals in Skyline, Alabama.  
+                    Contact us today to get started and experience the difference with Skyline Properties Alabama.
+                    <div class="contact-info">
+                        Phone: 931-636-8890<br>
+                        skylineproperties111@gmail.com
+                    </div>
+                </div>
+                <div class="sp">
+                    <img src="picture/img2.jpeg" alt="Skyline Property" width="100%">
+                </div>
+            </div>
+            <div class="third">
+                <h2 class="three-d-heading">Skyline Properties's Core Values</h2>
+                <hr>
+                <div class="third_inside">
+                    <div class="core_value">
+                        <h3>Integrity</h3>
+                        <p>Honesty, transparency and ethical conduct in all business dealings.</p>
+                    </div>
+                    <div class="core_value">
+                        <h3>Professionalism</h3>
+                        <p>Providing high-quality service and expert advice to clients.</p>
+                    </div>
+                    <div class="core_value">
+                        <h3>Customer Service</h3>
+                        <p>Putting the needs of clients first and going above and beyond to meet their needs.</p>
+                    </div>
+                    <div class="core_value">
+                        <h3>Teamwork</h3>
+                        <p>Working collaboratively with colleagues and clients to achieve common goals.</p>
+                    </div>
+                    <div class="core_value">
+                        <h3>Innovation</h3>
+                        <p>Staying up-to-date with the latest technology and industry trends to improve service and stay competitive.</p>
+                    </div>
+                    <div class="core_value">
+                        <h3>Results Orientation</h3>
+                        <p>Focusing on achieving measurable results for clients.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="map_space">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3275.755605766696!2d-86.12750899999999!3d34.812090000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDQ4JzQzLjUiTiA4NsKwMDcnMzkuMCJX!5e0!3m2!1sen!2sca!4v1719080256206!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Skyline Properties Hub. All rights reserved.</p>
+        <nav class="footer-menu">
+            <a href="#privacy-policy" class="footer-item">Privacy Policy</a>
+            <a href="#terms-of-service" class="footer-item">Terms of Service</a>
+            <a href="#contact-us" class="footer-item">Contact Us</a>
+        </nav>
+    </footer>
+</body>
+</html>
